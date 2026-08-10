@@ -30,7 +30,8 @@ The application contains a basic ASP.NET web form and related configuration file
 
 ## Output Preview
 
-![Online Event Registration Portal](output.svg)
+<img width="680" height="747" alt="{D6AD686B-C9D8-478F-BAE1-2645CCB21F9C}" src="https://github.com/user-attachments/assets/4c8269a2-1a57-4637-9048-89e4a7996e3c" />
+
 
 ## Notes
 
