@@ -28,6 +28,10 @@ The application contains a basic ASP.NET web form and related configuration file
 2. Restore NuGet packages if needed.
 3. Press `F5` to run the application.
 
+## Output Preview
+
+![Online Event Registration Portal](output.svg)
+
 ## Notes
 
 This repository includes the project source and necessary configuration for a basic ASP.NET web application demo.
