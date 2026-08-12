@@ -1,42 +1,84 @@
 # Pra_04 - ASP.NET Web Application
 
-This project is a simple ASP.NET Web Application created as part of the Pra_04 assignment.
+A complete ASP.NET Web Forms project created for the Pra_04 assignment. This repository contains the full Visual Studio solution, source code, configuration files, and NuGet package references required to build, run, and deploy a basic ASP.NET web application.
 
-## Project Overview
+Repository: https://github.com/raj6400/Pra_04
 
-The application contains a basic ASP.NET web form and related configuration files for running a .NET web project in Visual Studio.
+## Project Description
+
+This application demonstrates a simple ASP.NET Web Forms architecture with a single web form page, code-behind logic, and standard .NET configuration. It is intended as a learning exercise for building and deploying ASP.NET applications using Visual Studio and the .NET Framework.
+
+Key application aspects:
+
+- Web Forms UI using `WebForm1.aspx`
+- Server-side event handling in `WebForm1.aspx.cs`
+- Designer-generated control declarations in `WebForm1.aspx.designer.cs`
+- Application settings in `Web.config`
+- NuGet package management via `packages.config`
+
+## Features
+
+- Basic ASP.NET Web Forms page structure
+- Code-behind processing for page events
+- Standard web configuration for .NET apps
+- Buildable Visual Studio solution
+- Local development support with IIS Express
 
 ## Project Structure
 
 - `WebApplication1.sln` - Visual Studio solution file
-- `WebApplication1.csproj` - Project configuration
-- `WebForm1.aspx` - Main web form page
-- `WebForm1.aspx.cs` - Code-behind logic
-- `WebForm1.aspx.designer.cs` - Designer-generated code
-- `Web.config` - Application configuration
-- `packages.config` - NuGet package references
+- `WebApplication1.csproj` - Project file defining build settings and assembly references
+- `Global.asax` - Application event handler file
+- `Global.asax.cs` - Code-behind for application-level events
+- `WebForm1.aspx` - Main ASP.NET Web Forms page markup
+- `WebForm1.aspx.cs` - Page logic and event handlers
+- `WebForm1.aspx.designer.cs` - Automatically generated control declarations
+- `Web.config` - Application and security configuration settings
+- `packages.config` - NuGet package references used by the project
+- `bin/` - Compiled output and package content files (generated)
 
 ## Requirements
 
 - Visual Studio 2019 or later
-- .NET Framework compatible with the project
-- IIS Express or equivalent local web server
+- .NET Framework 4.5 or compatible version
+- IIS Express or local web server for debugging
 
-## Run the Project
+## Setup and Run Instructions
 
-1. Open the solution file `WebApplication1.sln` in Visual Studio.
-2. Restore NuGet packages if needed.
-3. Press `F5` to run the application.
+1. Clone or download the repository:
+   ```bash
+   git clone https://github.com/raj6400/Pra_04.git
+   ```
+2. Open `WebApplication1.sln` in Visual Studio.
+3. Restore NuGet packages if prompted.
+4. Build the project using `Build > Build Solution`.
+5. Run the application with `F5` or by using IIS Express.
 
-## Output Preview
+## Development Notes
 
-<img width="680" height="747" alt="{D6AD686B-C9D8-478F-BAE1-2645CCB21F9C}" src="https://github.com/user-attachments/assets/4c8269a2-1a57-4637-9048-89e4a7996e3c" />
+- Make sure Visual Studio restores NuGet packages before running.
+- If the project fails to build, verify the installed .NET Framework version matches the project target.
+- Any custom UI logic is contained in `WebForm1.aspx.cs` and can be extended with additional web form controls.
 
+## Deployment
 
-## Notes
+This project can be deployed to any IIS-based host that supports ASP.NET Web Forms and the target .NET Framework.
 
-This repository includes the project source and necessary configuration for a basic ASP.NET web application demo.
+Deployment steps:
 
-## GitHub Repository
+1. Publish the site from Visual Studio using `Build > Publish`.
+2. Configure the target IIS site or application.
+3. Ensure the target server has the required .NET Framework installed.
 
-https://github.com/raj6400/Pra_04.git
+## Repository Information
+
+- GitHub: https://github.com/raj6400/Pra_04
+- Branch: `main`
+
+## Author
+
+- Raj (GitHub: `raj6400`)
+
+## OUTPUT
+
+<img width="286" height="745" alt="image" src="https://github.com/user-attachments/assets/d523fb63-aae2-4df3-a8a9-64f2531762aa" />
