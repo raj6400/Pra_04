@@ -42,6 +42,82 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
 
         /// <summary>
+        /// TextBoxDOB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxDOB;
+
+        /// <summary>
+        /// Calendar1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar Calendar1;
+
+        /// <summary>
+        /// TextBoxName control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxName;
+
+        /// <summary>
+        /// TextBoxEmail control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxEmail;
+
+        /// <summary>
+        /// TextBoxPassword control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxPassword;
+
+        /// <summary>
+        /// TextBoxConfirmPassword control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxConfirmPassword;
+
+        /// <summary>
+        /// TextBoxBranch control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxBranch;
+
+        /// <summary>
+        /// TextBoxGR control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxGR;
+
+        /// <summary>
+        /// TextBoxRoll control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxRoll;
+
+        /// <summary>
+        /// TextBoxMobile control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxMobile;
+
+        /// <summary>
+        /// SubmitButton control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.Button SubmitButton;
+
+        /// <summary>
+        /// lblResult control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.Label lblResult;
+
+        /// <summary>
+        /// ValidationSummary1 control.
+        /// </summary>
+        /// <summary>
+        /// cvGender control.
+        /// </summary>
+        protected global::System.Web.UI.WebControls.CustomValidator cvGender;
+
+        /// <summary>
         /// MALE control.
         /// </summary>
         /// <remarks>

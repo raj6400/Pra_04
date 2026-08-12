@@ -18,5 +18,30 @@ namespace WebApplication1
         {
 
         }
+
+        protected void cvGender_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            // Ensure one of the radio buttons is selected
+            args.IsValid = MALE.Checked || FEMALE.Checked;
+        }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            // Trigger validation and proceed only if all validators pass
+            if (Page.IsValid)
+            {
+                lblResult.Text = "Registration successful.";
+            }
+            else
+            {
+                lblResult.Text = string.Empty;
+            }
+        }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            // Copy selected date from the Calendar to the DOB textbox in a predictable format
+            TextBoxDOB.Text = Calendar1.SelectedDate.ToString("yyyy-MM-dd");
+        }
     }
 }
